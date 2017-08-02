@@ -1,0 +1,154 @@
+@import (reference) "vars.less";
+
+/* Responsive Design */
+@media screen and (min-width: @widthMobile) {
+    .container {max-width: 768px;}
+    h1 {font-size: 40px;}
+    .additional {
+        .cols_2 {.flex-cols-2;}
+        .cols_3 {.flex-cols-3;}
+    }
+}
+
+@media screen and (min-width: @widthMiddle) {
+    .container {max-width: 1024px;}
+    h1 {font-size: 44px;}
+    .item {
+        .item_gallery {
+            width: 60%;
+            float: left;
+            @thumb-width: 100px;
+            padding-right: @thumb-width;
+            
+            .thumbs {
+                float: right;
+                text-align: left;
+                margin: 0 -@thumb-width 0 0;
+                width: @thumb-width;
+                ul {margin: 0 0 0 auto; width: 73px;}
+                li {display: block; text-align: right; margin: 24px 0 0 0;}
+                a {display: block;}
+                img {width: 73px; height: 70px;}
+            }
+            .full {
+                
+            }
+        }
+        .item_info {
+            width: 40%;
+            box-sizing: border-box;
+            padding: 0 3.846% 40px 6%;
+            float: left;
+            .price {font-size: 48px;}
+        }
+    }
+    .tabs {
+        nav {
+            font-size: 27px;
+            a {display: inline-block; margin: 0 1.6em;}
+        }
+    }
+    .featured {
+        margin-top: 110px;
+        .in > div {
+            float: left;
+            width: 33.3%;
+            padding: 50px 3% 40px 3%;
+            &:first-child {padding-left: 0;}
+            &:last-child {padding-right: 0;}
+        }
+    }
+    .page_footer {
+        .copy {width: 23%; float: left;}
+        .social {width: 17%; float: right;}
+        nav {
+            float: right;
+            width: 60%;
+            & > div {float: left; width: 25%;}
+            & > div:first-child {
+                width: 75%;
+                ul {.flex-cols-3;}
+            }
+        }
+    }
+}
+
+@media screen and (min-width: @widthLarge) {
+    .container {max-width: 1200px;}
+    .page_top {
+        #page_nav_top {
+            width: 40%; 
+            float: left;
+            margin-left: 5%;
+        }
+    }
+    h1 {font-size: 48px;}    
+}
+
+@media screen and (max-width: @widthMobile_1) {
+    .page_top #page_nav_top {
+        margin-top: 40px;
+        ul.menu {
+            & > li {
+                display: block;                                
+                & > a {
+                    display: block; padding: 10px; margin: 0;
+                }
+            }
+        }
+        div.submenu {
+            position: relative;
+            .sub {
+                width: 100%; float: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: @widthMiddle_1) {
+    .page_top {
+        .container {
+            display: flex; 
+            display: -webkit-flex;
+            -webkit-flex-direction: column;
+            flex-direction: column;
+        }
+        .top_controls {order: 1; -webkit-order: 1; margin-top: 0; text-align: right; margin-left: 0; margin-top: 5px;
+            .dropdown {float: none;}
+        }
+        .top_icons {order: 2; -webkit-order: 2; margin: 10px 0 0 0; float: none;
+            ul {
+                text-align: right;
+                li {
+                    display: inline-block; vertical-align: top; float: none;
+                }
+            }
+        }
+        .logo {
+            order: 3; -webkit-order: 3; float: none; margin-top: 20px; max-width: 100%; width: 100%;
+            img {width: auto;}
+        }
+        nav {order: 4; -webkit-order: 4;}
+    }
+    
+    .page_footer {
+        .container {
+            display: flex; 
+            display: -webkit-flex;
+            -webkit-flex-direction: column;
+            flex-direction: column;
+            & > * {width: 100%;}
+        }
+        nav {order: 1; -webkit-order: 1;}
+        .social {
+            order: 2; -webkit-order: 2; 
+            text-align: left;
+            a:first-child {margin-left: 0;}
+        }
+        .copy {order: 3; -webkit-order: 3;}
+    }
+}
+
+@media screen and (max-width: 560px) {
+ .page_top .top_controls {margin: 15px 0 0 0; float: right; clear: both;}
+}

@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test task</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <script src="lib/shim.min.js"></script>
+</head>
+<body>
+    
+<!-- PAGE TOP -->    
+    <header class="page_top">
+        <div class="container wrap">
+            <div class="logo"><img alt="TEST THEME" src="images/logo.png"></div>
+
+            <div class="top_icons">
+                <ul class="wrap">
+                    <li><a href="#" class="ic-search"></a></li>
+                    <li><a href="#" class="ic-user"></a></li>
+                    <li><a href="#" class="ic-likes"><span>1</span></a></li>
+                    <li><a href="#" class="ic-cart"><span>2</span></a></li>
+                </ul>
+            </div>
+            
+            <div class="top_controls">
+
+                <div class="wrap">
+                    <div class="dropdown dd_A" id="page_lang">
+                        <span data-html="en">EN</span>
+                        <span data-html="ru">RU</span>
+                    </div>
+
+                    <div class="dropdown dd_A" id="page_currency">
+                        <span data-html="uah">UAH</span>
+                        <span class="selected" data-html="usd">$ US</span>
+                    </div>
+                </div>
+
+            </div>
+            
+            <nav id="page_nav_top">
+                <ul class="menu">
+                    <li data-html-source="lib/categories.json"><a href="#">Categories</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>            
+            
+        </div>
+    </header>
+    
+    
+<!-- PAGE MAIN -->    
+    <section class="page_main">
+        
+        
+        <div class="breadcrumbs">
+            <div class="container">
+                <a href="/">Home</a>
+                <span>/</span>
+                <a href="#">Test Theme</a>
+                <span>/</span>
+                Lorem Ipsum Dolor Sit Amet
+            </div>
+        </div>
+        
+        
+        <h1>Lorem Ipsum Dolor Sit Amet</h1>
+        
+        
+        <div class="item">
+            <div class="container">
+               
+               <div class="wrap">
+
+                    <div class="col item_gallery">
+                        <div class="gallery wrap" id="prod_gallery">
+                            <div class="thumbs">
+                                <ul>
+                                    <li class="active"><a data-id="1" href="#"><img alt="" src="images/item_01_thumb.jpg"></a></li>
+                                    <li><a data-id="2" href="#"><img alt="" src="images/item_02_thumb.jpg"></a></li>
+                                    <li><a data-id="3" href="#"><img alt="" src="images/item_03_thumb.jpg"></a></li>
+                                    <li><a data-id="4" href="#"><img alt="" src="images/item_04_thumb.jpg"></a></li>
+                                    <li><a data-id="5" href="#"><img alt="" src="images/item_05_thumb.jpg"></a></li>
+                                </ul>
+                            </div>
+                            <div class="full">
+                                <ul>
+                                    <li class="active"><img data-id="1" src="images/item_01_full.jpg" alt="item_01"></li>
+                                    <li><img data-id="2" src="images/item_02_full.jpg" alt="item_02"></li>
+                                    <li><img data-id="3" src="images/item_03_full.jpg" alt="item_03"></li>
+                                    <li><img data-id="4" src="images/item_04_full.jpg" alt="item_04"></li>
+                                    <li><img data-id="5" src="images/item_05_full.jpg" alt="item_05"></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col item_info">
+
+                        <form action="cart_add.php" method="post">
+                            <p class="price">$299.99</p>
+                            <div class="color">
+                                <span><i data-html-bg="#585d61"></i> Dark Gray</span>
+                            </div>
+                            <div class="quantity_submit">
+                                <div class="quantity">
+                                    <button>-</button>
+                                    <input type="text" value="1" data-html-max="4" data-html-min="0">
+                                    <button>+</button>
+                                </div>
+                                <input type="submit" value="add to cart">
+                            </div>
+                            <div class="description">
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore Beatae vitae dicta sunt explicabo.<br> Nemo enim ipsam voluptatem quia voluptas</p>
+                                <p><a href="#">Read more</a></p>
+                            </div>
+                            <div class="social">
+                                <span>Share</span>
+                                <a href="#" class="ic-facebook"></a>
+                                <a href="#" class="ic-google-plus"></a>
+                                <a href="#" class="ic-tweet"></a>
+                                <a href="#" class="ic-pinterest"></a>
+                            </div>
+                        </form>
+
+                    </div>
+                                                                                                                                    
+               </div>
+                
+                
+                <div class="additional tabs">
+                    <nav>
+                        <a href="tab_1">Description</a>
+                        <a href="tab_2">Additional Information</a>
+                        <a href="tab_3">Reviews (3)</a>
+                    </nav>
+                    
+                    <div class="tab cols_2" data-html-tab="tab_1">
+                        <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, <br> ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. </p>
+                    </div>
+                    <div class="tab cols_3" data-html-tab="tab_2">
+                        <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, <br> ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. </p>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                    </div>
+                    <div class="tab cols_2" data-html-tab="tab_3">
+                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, <br> ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. </p>
+                        <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                    </div>
+                </div>                
+                
+            </div>
+        </div>
+        
+        
+        <div class="popular_items">
+           <div class="container">
+
+                <div class="CamoSlider">
+                    <nav>
+                        <b class="prev"></b>
+                        <b class="next"></b>
+                        <h2>Popular items</h2>
+                    </nav>
+
+                    <div class="slider">
+                        <div class="wrap">
+                            <ul>
+                                <li>
+                                    <div><a href='#'><img src="images/popular_01.jpg" alt="" class="full"></a></div>
+                                    <p>Kristina Dam Oak Table With White Marble Top</p>
+                                    <span>$ 799.55</span>
+                                </li>
+                                <li>
+                                    <div><a href='#'><img src="images/popular_02.jpg" alt="" class="full"></a></div>
+                                    <p>Kristina Dam Oak Table With White Marble Top</p>
+                                    <span>$ 2195.00</span>
+                                </li>
+                                <li>
+                                    <div><a href='#'><img src="images/popular_03.jpg" alt="" class="full"></a></div>
+                                    <p>Activate Facial Mask and Charcoal Soap</p>
+                                    <span>$ 129.55</span>
+                                </li>
+                                <li>
+                                    <div><a href='#'><img src="images/popular_04.jpg" alt="" class="full"></a></div>
+                                    <p>Cocktail Table Walnut | YES</p>
+                                    <span>$ 629.99</span>
+                                </li>
+                                <li>
+                                    <div><a href='#'><img src="images/popular_03.jpg" alt="" class="full"></a></div>
+                                    <p>Kristina Dam Oak Table With White Marble Top</p>
+                                    <span>$ 799.55</span>
+                                </li>
+                                <li>
+                                    <div><a href='#'><img src="images/popular_02.jpg" alt="" class="full"></a></div>
+                                    <p>Kristina Dam Oak Table With White Marble Top</p>
+                                    <span>$ 2195.00</span>
+                                </li>
+                                <li>
+                                    <div><a href='#'><img src="images/popular_01.jpg" alt="" class="full"></a></div>
+                                    <p>Activate Facial Mask and Charcoal Soap</p>
+                                    <span>$ 129.55</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                              
+           </div>
+        </div>
+        
+    </section>
+    
+<!-- PAGE BOTTOM -->    
+    <footer class="page_bottom">
+       
+        <section class="featured">
+            <div class="container">
+
+                <div class="in wrap">
+                    <div>
+                        <div class="wrap">
+                            <i class="ic-delivery"></i>
+                            <div>
+                                <h3>Free Delivery</h3>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="wrap">
+                            <i class="ic-recycle"></i>
+                            <div>
+                                <h3>Easy Returns</h3>
+                                <p>Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="wrap">
+                            <i class="ic-choice"></i>
+                            <div>
+                                <h3>Wide choice</h3>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        
+        
+        <div class="page_footer">
+            <div class="container wrap">
+                
+                <div class="social">
+                    <a href="#" class="ic-facebook"></a>
+                    <a href="#" class="ic-google-plus"></a>
+                    <a href="#" class="ic-tweet"></a>
+                    <a href="#" class="ic-pinterest"></a>
+                </div>
+                
+                <nav class="wrap">
+                    <div>
+                        <h2>Categories</h2>
+                        <ul>
+                            <li><a href="#">Accessories</a></li>
+                            <li><a href="#">Alcohol</a></li>
+                            <li><a href="#">Art</a></li>
+                            <li><a href="#">Books</a></li>
+                            <li><a href="#">Drink</a></li>
+                            <li><a href="#">Electronics</a></li>
+                            <li><a href="#">Flowers &amp; Plants</a></li>
+                            <li><a href="#">Food</a></li>
+                            <li><a href="#">Gadgets</a></li>
+                            <li><a href="#">Garden</a></li>
+                            <li><a href="#">Grocery</a></li>
+
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Jewelry</a></li>
+                            <li><a href="#">Kids &amp; Baby</a></li>
+                            <li><a href="#">Men's Fashion</a></li>
+                            <li><a href="#">Mobile</a></li>
+                            <li><a href="#">Motorcycles</a></li>
+                            <li><a href="#">Movies</a></li>
+                            <li><a href="#">Music</a></li>
+                            <li><a href="#">Office</a></li>
+                            <li><a href="#">Pets</a></li>
+                            <li><a href="#">Romantic</a></li>
+
+                            <li><a href="#">Sport</a></li>
+                            <li><a href="#">Toys</a></li>
+                            <li><a href="#">Travel</a></li>
+                            <li><a href="#">Women's Fashion</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h2>About</h2>
+                        <ul>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Delivery</a></li>
+                            <li><a href="#">Testimonials</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                
+                <div class="copy">
+                    <p>© 2016 <a href="#">Test Theme</a><br> Made with love</p>
+                </div>
+                
+            </div>
+        </div>
+        
+    </footer>
+    
+<script src="js/bundle.js" async></script>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" async></script>
+<script>
+  WebFont.load({
+    google: {
+      families: ['Roboto:300,700', 'Scada:700']
+    },
+    timeout: 2000
+  });
+</script>
+    
+</body>
+</html>

@@ -1,0 +1,50 @@
+{
+    "data": [
+             {
+                "title": "Product Categories",
+                "items": [
+                    {"name": "Accessories", "url": "#"},
+                    {"name": "Alcohol", "url": "#"},
+                    {"name": "Art", "url": "#"},
+                    {"name": "Books", "url": "#"},
+                    {"name": "Drink", "url": "#"},
+                    {"name": "Electronics", "url": "#"},
+                    {"name": "Flowers &amp; Plants", "url": "#"},
+                    {"name": "Food", "url": "#"},
+                    {"name": "Gadgets", "url": "#"},
+                    {"name": "Garden", "url": "#"},
+                    {"name": "Grocery", "url": "#"},
+                    {"name": "Home", "url": "#"},
+                    {"name": "Jewelry", "url": "#"},
+                    {"name": "Kids &amp; Baby", "url": "#"},
+                    {"name": "Men's Fashion", "url": "#"},
+                    {"name": "Mobile", "url": "#"},
+                    {"name": "Motorcycles", "url": "#"},
+                    {"name": "Movies", "url": "#"},
+                    {"name": "", "url": "#"},
+                    {"name": "Music", "url": "#"},
+                    {"name": "Office", "url": "#"},
+                    {"name": "Pets", "url": "#"},
+                    {"name": "Romantic", "url": "#"},
+                    {"name": "Sport", "url": "#"},
+                    {"name": "Toys", "url": "#"}
+                ]
+             },
+             {
+                "title": "Sale",
+                "items": [
+                    {"name": "Accessories", "url": "#"},
+                    {"name": "Alcohol", "url": "#"},
+                    {"name": "Art", "url": "#"},
+                    {"name": "Books", "url": "#"},
+                    {"name": "Drink", "url": "#"},
+                    {"name": "Electronics", "url": "#"},
+                    {"name": "Flowers &amp; Plants", "url": "#"},
+                    {"name": "Food", "url": "#"},
+                    {"name": "Toys", "url": "#"},
+                    {"name": "Travel", "url": "#"},
+                    {"name": "Women's Fashion", "url": "#"}
+                ]
+             }
+        ]    
+}

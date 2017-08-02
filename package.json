@@ -1,0 +1,28 @@
+{
+  "name": "camoIT",
+  "version": "1.0.0",
+  "description": "CamoIT test task",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp",
+    "watch": "gulp watch",
+	"server": "live-server dist/"
+  },
+  "author": "Vladimir Dyrda <vdyrda@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^14.4.0",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.7.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-less": "^3.3.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0",
+    "gulp-w3c-html-validation": "0.0.1",
+    "jquery": "^3.2.1",
+    "less-plugin-autoprefix": "^1.5.1",
+    "pump": "^1.0.2"
+  }
+}
